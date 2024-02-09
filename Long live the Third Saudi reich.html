@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bukhari's_Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+    .myLink {display: none}
+    </style>
+  </head>
+<body class="w3-light-grey">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-white w3-border-bottom w3-xlarge">
+  <a href="#" class="w3-bar-item w3-button w3-text-red w3-hover-red"><b><i class="fa fa-map-marker w3-margin-right"></i>BUKHARI_18@</b></a>
+  <a href="#" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><i class="fa fa-search"></i></a>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
+  <img class="w3-image" src="https://www.foundingday.sa/assets/img/story/slide2/newbgright.jpg" alt="London" width="1500" height="700">
+  <div class="w3-display-middle" style="width:65%">
+    <div class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-margin-right"></i>Flight</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed w3-margin-right"></i>Hotel</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Car');"><i class="fa fa-car w3-margin-right"></i>Rental</button>
+    </div>
+
+    <!-- Tabs -->
+    <div id="Flight" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Travel to KSA with us</h3>
+      <div class="w3-row-padding" style="margin:0 -16px;">
+        <div class="w3-half">
+          <label>From</label>
+          <input class="w3-input w3-border" type="text" placeholder="Departing from">
+        </div>
+        <div class="w3-half">
+          <label>To</label>
+          <input class="w3-input w3-border" type="text" placeholder="Arriving at">
+        </div>
+      </div>
+      <p><button class="w3-button w3-dark-grey">Search and find dates</button></p>
+    </div>
+
+    <div id="Hotel" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Find the best hotels in KSA</h3>
+      <p>Book a hotel with us and get the best fares and promotions.</p>
+      <p>We know hotels - we know comfort.</p>
+      <p><button class="w3-button w3-dark-grey">Search Hotels</button></p>
+    </div>
+
+    <div id="Car" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Best car rental in the KSA!</h3>
+      <p><span class="w3-tag w3-deep-orange">DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with Bukhari car service</p>
+      <input class="w3-input w3-border" type="text" placeholder="Pick-up point">
+      <p><button class="w3-button w3-dark-grey">Search Availability</button></p>
+    </div>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px;">
+
+  <!-- Good offers -->
+  <div class="w3-container w3-margin-top">
+    <h3>On the occasion of the Saudi Founding Day</h3>
+    <h6>discounts of up to<strong>50%</strong>.</h6>
+  </div>
+  <div class="w3-row-padding w3-text-white w3-large">
+    <div class="w3-half w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="https://media.cntraveler.com/photos/642b28a95e21b50e5b47c370/16:9/w_2560,c_limit/Banyan%20Tree%20AlUla%20_LEDE%20%20MND_7247(2).jpg" alt="مدينة العلا " style="width:100%">
+        <span class="w3-display-bottomleft w3-padding">AL-Ula</span>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://zamzam-blog.s3.eu-west-1.amazonaws.com/wp-content/uploads/2022/07/Hotels-In-Clock-Tower-Makkah-840x450.jpg" alt="مكة المكرمة " style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Makkah</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://cdn.britannica.com/14/189714-050-0A674D18/Kingdom-Centre-Riyadh-Saudi-Arabia.jpg" alt="AL-Riyadh" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">AL-Riyadh</span>
+          </div>
+        </div>
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://c.myholidays.com/blog/blog/content/images/2021/03/Things-To-Do-in-Jeddah.webp" alt="Jeddah" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Jeddah</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="https://www.remotelands.com/storage/media/5864/conversions/b220510001-banner-size.jpg" alt="Abha" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Abha</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Explore Nature -->
+  <div class="w3-container">
+    <h3>The most prominent events in Saudi-Arabia</h3>
+    <p>Saudi-Arabia As you have never seen it before</p>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <img src="https://www.my.gov.sa/wps/wcm/connect/390afce9-6fdb-4d73-8a5e-0a9914481ad4/unnamed.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-390afce9-6fdb-4d73-8a5e-0a9914481ad4-o8.2wxK" alt="Jeddah-Season" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Jeddah-Season</h3>
+        <p class="w3-opacity">Prices start from 30 SAR</p>
+        <p>An interesting and wonderful experience in Jeddah<p>
+        <button class="w3-button w3-margin-bottom">Buy Tickets</button>
+      </div>
+    </div>
+    <div class="w3-half w3-margin-bottom">
+      <img src="data:image/png;base64,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" alt="Riyadh-Season" style="width:100%">
+      <div class="w3-container w3-white">
+        <h3>Riyadh-Season</h3>
+        <p class="w3-opacity">One-way on VIP cost 317 SAR</p>
+        <p>You will enjoy every moment with your family and create happy memories</p>
+        <button class="w3-button w3-margin-bottom">Buy Tickets</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newsletter -->
+  <div class="w3-container">
+    <div class="w3-panel w3-padding-16 w3-black w3-opacity w3-card w3-hover-opacity-off">
+      <h2>Get the best offers first!</h2>
+      <p>Join our newsletter about the events in KSA</p>
+      <label>E-mail</label>
+      <input class="w3-input w3-border" type="text" placeholder="Your Email address">
+      <button type="button" class="w3-button w3-red w3-margin-top">Subscribe</button>
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container">
+    <h2>Contact</h2>
+    <p>With Bukhari air line you well be fine!</p>
+    <i class="fa fa-map-marker" style="width:30px"></i> Makkah,KSA<br>
+    <i class="fa fa-phone" style="width:30px"></i> Phone: +966 546922460<br>
+    <i class="fa fa-envelope" style="width:30px"> </i> Email: Bukhari Airlines_18@mail.com<br>
+    <form action="https://getform.io/f/e9120e00-949d-401d-8697-cbfd5a475b28" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-black w3-padding-large" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+  <h5>Find Us On</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>This website was made by the gratest person on this planet Hashem-Bukhari
+  </p>
+  <p>long live the Third Saudi reich</p>
+ <a class="w3-button w3-round-xxlarge w3-black w3-margin-bottom" href="https://www.instagram.com/uchiha_656?igsh=M3Zpc3JobTZkbjlu&utm_source=qr" target="_blank">Start now</a>
+ <!-- Footer end. -->
+ </footer>
+
+<script>
+// Tabs
+function openLink(evt, linkName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("myLink");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(linkName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+
+// Click on the first tablink on load
+document.getElementsByClassName("tablink")[0].click();
+</script>
+
+</body>
+</html>
